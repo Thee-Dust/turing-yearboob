@@ -3,4 +3,11 @@ import './Person.css';
 
 // PERSON COMPONENT CODE GOES HERE
 
-export default Person;
+export default function Person() {
+  return (
+    <div>
+      <span>Hello World</span>
+    </div>
+  )
+}
+
