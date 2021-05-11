@@ -13,15 +13,14 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state);
     return (
       <div className="App">
         <header className="App-header">
           <h1>Turing Yearbook</h1>
-          <h2>Staff</h2>
         </header>
         <main>
-          {Cohort()}
+          <h2>Staff</h2>
+          <Cohort info={this.state.staff}/>
         </main>
       </div>
     );
