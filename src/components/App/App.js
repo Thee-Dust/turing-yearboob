@@ -22,6 +22,8 @@ class App extends Component {
         <main>
           <h1>Staff</h1>
           <Cohort info={this.state.staff}/>
+          <h1>Students</h1>
+          <Cohort info={this.state.student}/>
         </main>
       </div>
     );
